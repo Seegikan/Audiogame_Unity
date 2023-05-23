@@ -1713,7 +1713,7 @@ PrefabInstance:
     - target: {fileID: 1657194399845827296, guid: 154bae1673d426d47878314c2ed8ced9,
         type: 3}
       propertyPath: EventReference.Path
-      value: event:/Bonfire
+      value: event:/3D/Bonfire
       objectReference: {fileID: 0}
     - target: {fileID: 1657194399845827296, guid: 154bae1673d426d47878314c2ed8ced9,
         type: 3}
