@@ -5,9 +5,11 @@ using FMODUnity;
 
 public class AudioCloser : MonoBehaviour
 {
-    [SerializeField] private StudioEventEmitter Audio;
+    [SerializeField]
+    private StudioEventEmitter Audio;
 
     //[SerializeField] private EmitterRef anEmitter;
+    [SerializeField]
     private SphereCollider sphereCollider;
 
     void Start()
