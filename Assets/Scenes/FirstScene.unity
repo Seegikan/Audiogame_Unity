@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0022178253, g: 0.0021231056, b: 0.0020811167, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2519,18 +2519,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7069468232511267843, guid: f24474c714650f1488da48fd3dfe340e,
         type: 3}
+      propertyPath: EventReference.Path
+      value: event:/3D/Bonfire
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069468232511267843, guid: f24474c714650f1488da48fd3dfe340e,
+        type: 3}
       propertyPath: OverrideAttenuation
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7069468232511267843, guid: f24474c714650f1488da48fd3dfe340e,
         type: 3}
       propertyPath: OverrideMaxDistance
-      value: 7.2785254
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7069468232511267843, guid: f24474c714650f1488da48fd3dfe340e,
         type: 3}
       propertyPath: OverrideMinDistance
-      value: 3.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7069468232928533913, guid: f24474c714650f1488da48fd3dfe340e,
         type: 3}

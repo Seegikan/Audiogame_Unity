@@ -494,7 +494,7 @@ MonoBehaviour:
   HasSourceProject: 0
   HasPlatforms: 0
   sourceProjectPath: 
-  sourceBankPath: Assets/BuildFmod/Desktop
+  sourceBankPath: Assets/BuildFmod
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -518,11 +518,11 @@ MonoBehaviour:
   MasterBanks:
   - Desktop/Master
   Banks:
+  - Desktop/FX
+  - Desktop/Instructions
+  - Desktop/Menu
   - Desktop/Player
   - Desktop/World
-  - FX
-  - Instructions
-  - Menu
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

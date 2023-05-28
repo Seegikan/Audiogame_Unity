@@ -16,9 +16,5 @@ public class FuncionsButtons : MonoBehaviour
     {
         Application.Quit();
     }
-
-     public void PlayCredits()
-     {
-
-     }
+    
 }
