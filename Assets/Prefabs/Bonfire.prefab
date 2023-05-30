@@ -52,7 +52,7 @@ MonoBehaviour:
       Data2: 1280750254
       Data3: -319589193
       Data4: 1322525144
-    Path: event:/Bonfire
+    Path: event:/3D/Bonfire
   Event: 
   PlayEvent: 1
   StopEvent: 0
@@ -60,9 +60,9 @@ MonoBehaviour:
   TriggerOnce: 0
   Preload: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 15
 --- !u!1 &7069468232928533914
 GameObject:
   m_ObjectHideFlags: 0
