@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9166358629661574428}
   - component: {fileID: 9166358629661574429}
   - component: {fileID: 9166358629661574430}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TriggerAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9166358629661574431}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41d326b0a6db0cb43a80f847353de5ab, type: 3}
   m_Name: 
