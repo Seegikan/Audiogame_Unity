@@ -4,6 +4,7 @@ using UnityEngine;
 using FMODUnity;
 using System;
 using System.Threading.Tasks;
+using FMOD.Studio;
 
 public class ListAudios : MonoBehaviour
 {
@@ -14,19 +15,24 @@ public class ListAudios : MonoBehaviour
 
     [SerializeField]
     List<EventReference> eventReferenceList; // Ruta del evento FMOD en el Inspector
-    private FMOD.Studio.EventInstance eventInstance; // Ruta del evento FMOD en el Inspector
+    private EventInstance eventInstance; // Ruta del evento FMOD en el Inspector
     private Collider sphereCollider;
 
     void Start()
     {
         sphereCollider = GetComponent<Collider>();
+       // eventInstance = RuntimeManager.CreateInstance(eventReferenceList[index]);
+        //RuntimeManager.AttachInstanceToGameObject(eventInstance, GetComponent<Transform>());
+        
     }
-   
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            eventInstance = FMODUnity.RuntimeManager.CreateInstance(eventReferenceList[index]);
+            eventInstance = RuntimeManager.CreateInstance(eventReferenceList[index]);
+            RuntimeManager.AttachInstanceToGameObject(eventInstance, GetComponent<Transform>());
+
             eventInstance.start();
             sphereCollider.gameObject.SetActive(false);
             index++;

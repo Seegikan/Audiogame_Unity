@@ -31,6 +31,7 @@ public class LookAtFoward : MonoBehaviour
 
         // Mantener el eje X en 0
         currentRotation.x = 0f;
+        currentRotation.z = 0f;
 
         // Aplicar la nueva rotación al objeto
         transform.rotation = Quaternion.Euler(currentRotation);
